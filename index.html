@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+	<script type="text/javascript" src="js/skylink.complete.min.js"></script>
+	<title>Final work</title>
+</head>
+<body>
+<div id="header">Peer Messanger</div>
+<!-- main form -->
+<form id="mainform">
+	<!-- progressbar -->
+	<ul id="progressbar">
+		<li class="active">Input your name</li>
+		<li>Chating with friends</li>
+	</ul>
+
+	<fieldset>
+		<h2 class="fs-title">Your Name</h2>
+		<h3 class="fs-subtitle">This is step 1</h3>
+		<input id="name" type="text" name="Name" placeholder="Your name" />
+		<input id="next_button" type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+
+	<fieldset>
+		<h2 class="fs-title">Chat Room</h2>
+		<h3 class="fs-subtitle">Social network</h3>
+		<div id="greeting"></div>
+		<a href="#" id="leave_room">Leave chat</a>
+		<textarea id="message_holder" name="message_holder" placeholder="Messages"></textarea>
+		<input id="message" type="text" name="message" placeholder="Input your message" />
+		<input id="send_mes" type="button" name="send_mes" class="send action-button" value="Send" />
+	</fieldset>
+
+	</form>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
